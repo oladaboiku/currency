@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    padding: 50px;
+}
+.container{
+    width: 100%;
+    height: 50vh;
+}
+p{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 5px auto 0 auto;
+    padding: 10px 0 0 0;
+}
+form{
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency{
+    margin: 10px auto;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+select,input{
+    padding: 6px;
+    margin: 2px;
+    width: 250px;
+    border-radius: 3px;
+    text-align: center;
+}
+select{
+    outline: none;
+    background-color: #eee7e7;
+    color: #111;
+    font-weight: 600;
+}
+input{
+    outline: none;
+    font-weight: 600;
+    color: #666;
+    font-size: 17px;
+}
+.btns{
+    width: 50%;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btnConvert,.btnClear{
+    padding: 10px;
+    width: 300px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #518451;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
